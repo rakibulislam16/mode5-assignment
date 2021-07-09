@@ -4,6 +4,7 @@ body{margin: 0;
     margin-bottom: 0px;
     padding: 15px;}
 h1{font-weight: bold;}
+    /*top-menu area*/
 
 .top-nav{background-color: black;
     justify-content: center;
@@ -19,6 +20,7 @@ h1{font-weight: bold;}
     color:black;}
 .top-nav a.active{background-color: rgb(197, 247, 197) ;
     color: black;}
+    
 .half-width{width: 40%;
     padding-left: 5%;}
 .half-width p{padding: 20px 0 30px;}
@@ -32,7 +34,7 @@ h1{font-weight: bold;}
     border-radius: 20px;
     font-weight: bold;}
 
-    /*fthis section for overlapping two image*/
+    /*this section for overlapping two image*/
 .top-banner{background-image: url(images/bg1.jpg);
     background-repeat: no-repeat;
     background-position-x: right;}
