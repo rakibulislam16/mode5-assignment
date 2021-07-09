@@ -1,0 +1,95 @@
+body{margin: 0;
+    font-family: 'Montserrat', sans-serif;}
+.flex-box{display: flex;
+    margin-bottom: 0px;
+    padding: 15px;}
+h1{font-weight: bold;}
+
+.top-nav{background-color: black;
+    justify-content: center;
+    overflow: hidden;}
+.top-nav a{text-align: center;
+    margin-left: 15px;
+    padding: 15px 18px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    }
+.top-nav a:hover {background-color: rgb(197, 247, 197);
+    color:black;}
+.top-nav a.active{background-color: rgb(197, 247, 197) ;
+    color: black;}
+.half-width{width: 40%;
+    padding-left: 5%;}
+.half-width p{padding: 20px 0 30px;}
+.half-width img{width: 100%;
+    padding: 40px;}
+.orange{color: orange;}
+.button{text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: bold;}
+
+    /*fthis section for overlapping two image*/
+.top-banner{background-image: url(images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;}
+.parent{position: relative;
+    top: 0;
+    left: 0;}
+.image1{position:relative;
+        top: 0;
+        left: 0;
+        }
+.girl{
+    width: 100%;
+	position: absolute;
+	top: -63px;
+	left: 45px;
+}
+
+.middle-banner{background-image: url(images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-position: left;}
+    /*my recipie area*/
+
+.myrecipies{text-align: center;
+    padding: 20px;}
+.myrecipietext{
+        margin:5% 20%;
+    }
+.myrecipies h1{margin-bottom: 20px;}
+.recipieitem{
+    width: 30%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 15px;
+    text-align: left; 
+    border-radius: 20px;    
+    box-shadow: 10px 10px 40px gray;}
+
+.item-image{width: 95%;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-position: left;}
+
+    /*subscribe area*/
+    
+.subscribe{border-radius: 20px;    
+    box-shadow: 10px 10px 40px gray;
+    margin-bottom: 50px;}
+.subscribeitem{margin-left: 15%;}
+.bold{font-weight: 900;}
+/*footer area */
+
+.gray{color: gray;}
+.footer{background: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 10px;}
+footer h1{margin-bottom: 20px;}
